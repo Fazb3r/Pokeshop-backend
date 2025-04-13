@@ -27,10 +27,6 @@ pokeshop_back/ <br>
 │ ├── models/ # Database models<br>
 │ ├── services/ # Business logic<br>
 │ ├── routes/ # API endpoints<br>
-│ ├── middlewares/ # Auth & validation<br>
 │ ├── database/ # DB connection & migrations<br>
-│ └── utils/ # Helpers & constants<br>
-├── tests/ # Integration/unit tests<br>
-├── .env.example # Environment variables template<br>
 ├── package.json<br>
 └── index.js # App entry point<br>
