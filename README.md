@@ -21,16 +21,16 @@ A RESTful API backend for a Pokémon-themed shop built with Express.js and Postg
 - **Validation**: Joi
 
 ## Project Structure 
-pokeshop_back/
-├── src/
-│ ├── controllers/ # Route handlers
-│ ├── models/ # Database models
-│ ├── services/ # Business logic
-│ ├── routes/ # API endpoints
-│ ├── middlewares/ # Auth & validation
-│ ├── database/ # DB connection & migrations
-│ └── utils/ # Helpers & constants
-├── tests/ # Integration/unit tests
-├── .env.example # Environment variables template
-├── package.json
-└── index.js # App entry point
+pokeshop_back/ <br>
+├── src/ <br>
+│ ├── controllers/ # Route handlers<br>
+│ ├── models/ # Database models<br>
+│ ├── services/ # Business logic<br>
+│ ├── routes/ # API endpoints<br>
+│ ├── middlewares/ # Auth & validation<br>
+│ ├── database/ # DB connection & migrations<br>
+│ └── utils/ # Helpers & constants<br>
+├── tests/ # Integration/unit tests<br>
+├── .env.example # Environment variables template<br>
+├── package.json<br>
+└── index.js # App entry point<br>
