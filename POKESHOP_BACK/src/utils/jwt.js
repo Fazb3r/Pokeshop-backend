@@ -1,7 +1,11 @@
 // POKESHOP_BACK/src/utils/jwt.js
 import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'pokeShopSecret';
+// Load environment variables
+dotenv.config();
+
+const JWT_SECRET = process.env.JWT_SECRET || 'pokeShopSecretKey123!';
 const JWT_EXPIRY = '24h'; // Token validity period
 
 /**

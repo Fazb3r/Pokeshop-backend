@@ -7,6 +7,7 @@ import dotenv from 'dotenv';
 import userRoutes from './src/routes/userRoutes.js';
 import pokemonRoutes from './src/routes/pokemonRoutes.js';
 import cartRoutes from './src/routes/cartRoutes.js';
+import orderRoutes from './src/routes/orderRoutes.js';
 
 // Load environment variables
 dotenv.config();
@@ -24,6 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/users', userRoutes);
 app.use('/api/pokemon', pokemonRoutes);
 app.use('/api/cart', cartRoutes);
+app.use('/api/orders', orderRoutes);
 
 // Base route
 app.get('/', (req, res) => {

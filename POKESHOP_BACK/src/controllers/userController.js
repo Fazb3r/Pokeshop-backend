@@ -39,7 +39,7 @@ export const login = async (req, res) => {
 // Register controller
 export const register = async (req, res) => {
   try {
-    const { username, password, userType } = req.body;
+    const { username, password, userType = 'client' } = req.body;
     
     // Check if username already exists
     const existingUser = await getUserByUsername(username);

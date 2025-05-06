@@ -1,7 +1,11 @@
 // POKESHOP_BACK/src/middleware/auth.js
 import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'pokeShopSecret';
+// Load environment variables
+dotenv.config();
+
+const JWT_SECRET = process.env.JWT_SECRET || 'pokeShopSecretKey123!';
 
 export const authenticateToken = (req, res, next) => {
   // Get token from Authorization header

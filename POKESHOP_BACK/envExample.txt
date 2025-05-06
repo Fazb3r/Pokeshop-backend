@@ -1,0 +1,12 @@
+# Server configuration
+PORT=3000
+
+# Database configuration
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=pokeshop
+DB_USER=postgres
+DB_PASSWORD=your_password_here
+
+# JWT Secret
+JWT_SECRET=your_secret_key_here
